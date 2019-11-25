@@ -2,8 +2,8 @@
 
 $packageName= 'supercollider'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/supercollider/supercollider/releases/download/Version-3.9.3/SuperCollider-3.9.3-Windows-x86-VS.exe' 
-$url64      = 'https://github.com/supercollider/supercollider/releases/download/Version-3.9.3/SuperCollider-3.9.3-Windows-x64-VS.exe' 
+$url        = 'https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x86-VS-67a1eb1.exe' 
+$url64      = 'https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x64-VS-67a1eb1.exe' 
 
 $packageArgs = @{
   packageName   = $packageName
@@ -12,7 +12,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
 
-  softwareName  = 'SuperCollider Version 3.9.3'
+  softwareName  = 'SuperCollider Version 3.10.3'
 
   checksum      = '7B421B4E5E10231DC4F8EB071D755FCA1F68CD6F445A5BCCC52880C5B705464A'
   checksumType  = 'sha256' 

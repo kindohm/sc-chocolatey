@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 
 $packageName= 'sc3plugins'
-$url        = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.9.0/sc3-plugins-3.9.0-Windows-x86-VS.zip' 
-$url64      = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.9.0/sc3-plugins-3.9.0-Windows-x64-VS.zip' 
+$url        = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.10.0/sc3-plugins-3.10.0-Windows-x86-VS.zip' 
+$url64      = 'https://github.com/supercollider/sc3-plugins/releases/download/Version-3.10.0/sc3-plugins-3.10.0-Windows-x64-VS.zip' 
 
 $scExtensionsPath = $env:LOCALAPPDATA + '\SuperCollider\Extensions'
 $scPluginsPath = $scExtensionsPath + '\SC3plugins'

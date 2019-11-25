@@ -1,5 +1,8 @@
 # SuperCollider Package Change Log
 
+## 3.10.3
+Release for 3.10.3
+
 ## 3.9.3
 Release for 3.9.3
 
